@@ -113,9 +113,9 @@ public class AppTest {
     @Test
     void showAllValues() {
         ArrayList al = new ArrayList();
-        al.add(100);
+        al.add(1000);
         al.add(200);
-        al.add(300);
+        al.add(30);
 
         ByteArrayOutputStream output = TestUtil.setOutToByteArray();
 
